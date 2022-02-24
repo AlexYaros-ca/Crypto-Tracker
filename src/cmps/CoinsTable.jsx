@@ -87,7 +87,7 @@ const CoinsTable = () => {
           label='Serch For a Crypto Currency..'
           variant='outlined'
           style={{ width: '100%', marginBottom: 20 }}
-          onChange={ev => setSearch(ev.target.value)}
+          onChange={ev => setSearch(ev.target.value.toLowerCase())}
         ></TextField>
         <TableContainer>
           {loading ? (
