@@ -84,7 +84,7 @@ const CoinsTable = () => {
           Cryptocurrency prices by market cap
         </Typography>
         <TextField
-          label='Serch For a Crypto Currency..'
+          label='Search For a Crypto Currency..'
           variant='outlined'
           style={{ width: '100%', marginBottom: 20 }}
           onChange={ev => setSearch(ev.target.value.toLowerCase())}
@@ -98,7 +98,7 @@ const CoinsTable = () => {
             <Table>
               <TableHead style={{ backgroundColor: '#EEBC1D' }}>
                 <TableRow>
-                  {['Coin', 'Price', '24h Change', 'Maeket Cap'].map(head => (
+                  {['Coin', 'Price', '24h Change', 'Market Cap'].map(head => (
                     <TableCell
                       style={{
                         color: 'black',

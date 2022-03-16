@@ -44,7 +44,7 @@ const Header = () => {
               onClick={() => history.push('/')}
               variant='h6'
             >
-              Crypto Traker
+              Crypto Tracker
             </Typography>
 
             <Select
